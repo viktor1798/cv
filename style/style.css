@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+}
+/*=============== header==================== */
+.header {
+}
+.container {
+}
+.header__content-block {
+}
+.header__text-logo {
+}
+.header__nav {
+}
+.nav__item {
+}
+.item_active {
+}
+
+/*======================= main================== */
+.main {
+}
+/* ======================footer=================== */
+.footer {
+}
