@@ -32,7 +32,12 @@ h6 {
 
     width: 100%;
     height: 100vh;
-    min-height: 570px;
+    min-height: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
 }
 
 [class*=__container] {
@@ -110,7 +115,9 @@ h6 {
 
 
 /*======================= main================== */
-.main {}
+.main {
+    flex: 1 1 auto;
+}
 
 
 
@@ -176,4 +183,32 @@ h6 {
     color: #78abf1;
 }
 /* ======================footer=================== */
-.footer {}
+.footer{
+  
+}
+.footer__container{
+    position:relative;
+}
+.footer__line{
+    width: 200px;
+    height: 2px;
+
+    background-color: #fff;
+    
+    
+    position: absolute;
+    left:10px;
+    bottom: 30px;
+}
+.footer__copyright{
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
+.wrapper__image-avatar{
+ 
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
