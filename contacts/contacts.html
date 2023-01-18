@@ -15,19 +15,25 @@
 
 <body onload="imgSlide()">
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
+        <header id="open" class="header">
+            <div id="close"class="header__container">
                 <div class="header__content-block">
                     <div class="header__text-logo">
                         cv
                     </div>
-                    <nav class="header__nav">
-                        <a class="nav__item" href="../index.html">Profile</a>
-                        <a class="nav__item" href="../education/education.html">Education</a>
-                        <a class="nav__item" href="../work-experince/work-experince.html">Work experience</a>
-                        <a class="nav__item" href="../skils/skils.html">Skils</a>
-                        <a class="nav__item item_active" href="contacts.html">Contacts</a>
-                    </nav>
+                    <div class="header__nav nav">
+                        <nav class="menu__body">
+                            <div class="menu__list">
+                                <a class="nav__item " href="../index.html">Profile</a>
+                                <a class="nav__item" href="../education/education.html">Education</a>
+                                <a class="nav__item" href="../work-experince/work-experince.html">Work experience</a>
+                                <a class="nav__item" href="../skills/skills.html">Skils</a>
+                                <a class="nav__item item_active" href="contacts.html">Contacts</a>
+                            </div>
+                        </nav>
+                    </div>
+                    <a href="#open" class="icon-menu"><span></span></a>
+                    <a href="#close" class="close-icon-menu"><span></span></a>
                 </div>
             </div>
         </header>
