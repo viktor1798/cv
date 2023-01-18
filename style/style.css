@@ -358,10 +358,11 @@ p {
     }
 
     .main,
-    .footer__container {
+    .footer__container,
+    .contact-info__text-info {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: start;
     }
 
     .footer__line {
@@ -371,11 +372,13 @@ p {
 }
 
 @media (max-width:580px) {
-    .footer{
-        z-index: 0;
-    }
+  
     .wrapper{
-        min-height: 1050px;
+        min-height: 600px;
+        overflow-y: scroll;
+    }
+    .profile,.contacts,.education,.skils,.work{
+        margin-top: 45px;
     }
 
     .menu__body{
@@ -468,26 +471,28 @@ p {
         font-weight: 300;
         color: var(--main-color-text);
 
-        margin-top: 5px;
+        margin-top: 10px;
     }
     
     [class*=__h2-item] {
         font-size: 28px;
         line-height: 30px;
-        font-weight: 300;
-        color: var(--main-color-text);
-        
-        opacity: 0.6;
     }
     
     [class*=__h1-item] {
         font-size: 35px;
-     
     }
+    
     .contact-info__h2-item{
         margin-bottom: 10px;
     }
     .box__contact-info{
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:400px){
+    .footer{
+        display: none;
     }
 }
