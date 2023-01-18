@@ -375,7 +375,7 @@ p {
         z-index: 0;
     }
     .wrapper{
-        min-height: 850px;
+        min-height: 1050px;
     }
 
     .menu__body{
@@ -464,7 +464,7 @@ p {
 
     [class*=information__] {
         font-size: 20px;
-        line-height: 20px;
+        line-height: 25px;
         font-weight: 300;
         color: var(--main-color-text);
 
@@ -473,10 +473,10 @@ p {
     
     [class*=__h2-item] {
         font-size: 28px;
-        line-height: 20px;
+        line-height: 30px;
         font-weight: 300;
         color: var(--main-color-text);
-    
+        
         opacity: 0.6;
     }
     
