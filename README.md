@@ -1,3 +1,3 @@
-#CV FOR DATAMOLA#
+#CV#
 
-[Ref for CV](https://viktor1798.github.io/cv-for-datamola/)
+[Ref for CV](https://viktor1798.github.io/cv/)
